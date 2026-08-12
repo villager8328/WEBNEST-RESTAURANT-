@@ -5,14 +5,14 @@ import { ShoppingBag, Plus, Minus, Trash2, ArrowRight, MapPin, Phone, Clock, Che
 import "./styles.css";
 
 const menu = [
-  { id: 1, name: "Butter Chicken", category: "Mains", price: 299, image: "https://images.unsplash.com/photo-1603894584373-5ac82b2ae398?auto=format&fit=crop&w=900&q=85", desc: "Creamy tomato gravy, tender chicken and aromatic spices." },
-  { id: 2, name: "Paneer Tikka", category: "Starters", price: 249, image: "https://images.unsplash.com/photo-1567188040759-fb8a883dc6d8?auto=format&fit=crop&w=900&q=85", desc: "Char-grilled cottage cheese with peppers and smoky masala." },
-  { id: 3, name: "Biryani", category: "Mains", price: 279, image: "https://images.unsplash.com/photo-1563379091339-03246963d96c?auto=format&fit=crop&w=900&q=85", desc: "Fragrant basmati rice layered with saffron and whole spices." },
-  { id: 4, name: "Garlic Naan", category: "Breads", price: 79, image: "https://images.unsplash.com/photo-1601050690597-df0568f70950?auto=format&fit=crop&w=900&q=85", desc: "Soft tandoor-baked naan finished with garlic and butter." },
-  { id: 5, name: "Dal Makhani", category: "Mains", price: 219, image: "https://images.unsplash.com/photo-1546833999-b9f581a1996d?auto=format&fit=crop&w=900&q=85", desc: "Slow-cooked black lentils with butter and gentle spices." },
-  { id: 6, name: "Gulab Jamun", category: "Desserts", price: 99, image: "https://images.unsplash.com/photo-1601303516534-6d5c2b5d6a7f?auto=format&fit=crop&w=900&q=85", desc: "Warm milk-solid dumplings soaked in fragrant sugar syrup." },
-  { id: 7, name: "Tandoori Platter", category: "Starters", price: 399, image: "https://images.unsplash.com/photo-1599487488170-d11ec9c172f0?auto=format&fit=crop&w=900&q=85", desc: "A generous selection of smoky tandoor favourites." },
-  { id: 8, name: "Mango Lassi", category: "Drinks", price: 129, image: "https://images.unsplash.com/photo-1623065422902-30a2d299bbe4?auto=format&fit=crop&w=900&q=85", desc: "Chilled creamy yogurt drink blended with ripe mango." }
+  { id: 1, name: "Butter Chicken", category: "Mains", price$: 1, image: "https://images.unsplash.com/photo-1603894584373-5ac82b2ae398?auto=format&fit=crop&w=900&q=85", desc: "Creamy tomato gravy, tender chicken and aromatic spices." },
+  { id: 2, name: "Paneer Tikka", category: "Starters", price$: 9, image: "https://images.unsplash.com/photo-1567188040759-fb8a883dc6d8?auto=format&fit=crop&w=900&q=85", desc: "Char-grilled cottage cheese with peppers and smoky masala." },
+  { id: 3, name: "Biryani", category: "Mains", price: 9, image: "https://images.unsplash.com/photo-1563379091339-03246963d96c?auto=format&fit=crop&w=900&q=85", desc: "Fragrant basmati rice layered with saffron and whole spices." },
+  { id: 4, name: "Garlic Naan", category: "Breads", price$: 79, image: "https://images.unsplash.com/photo-1601050690597-df0568f70950?auto=format&fit=crop&w=900&q=85", desc: "Soft tandoor-baked naan finished with garlic and butter." },
+  { id: 5, name: "Dal Makhani", category: "Mains", price$: 2, image: "https://images.unsplash.com/photo-1546833999-b9f581a1996d?auto=format&fit=crop&w=900&q=85", desc: "Slow-cooked black lentils with butter and gentle spices." },
+  { id: 6, name: "Gulab Jamun", category: "Desserts", price$: 9, image: "https://images.unsplash.com/photo-1601303516534-6d5c2b5d6a7f?auto=format&fit=crop&w=900&q=85", desc: "Warm milk-solid dumplings soaked in fragrant sugar syrup." },
+  { id: 7, name: "Tandoori Platter", category: "Starters", price: 9, image: "https://images.unsplash.com/photo-1599487488170-d11ec9c172f0?auto=format&fit=crop&w=900&q=85", desc: "A generous selection of smoky tandoor favourites." },
+  { id: 8, name: "Mango Lassi", category: "Drinks", price$: 9, image: "https://images.unsplash.com/photo-1623065422902-30a2d299bbe4?auto=format&fit=crop&w=900&q=85", desc: "Chilled creamy yogurt drink blended with ripe mango." }
 ];
 
 const CartContext = createContext(null);
