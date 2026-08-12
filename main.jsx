@@ -5,7 +5,7 @@ import { ShoppingBag, Plus, Minus, Trash2, ArrowRight, MapPin, Phone, Clock, Che
 import "./styles.css";
 
 const menu = [
-  { id: 1, name: "Butter Chicken", category: "Mains", $price: 1, image: "https://images.unsplash.com/photo-1603894584373-5ac82b2ae398?auto=format&fit=crop&w=900&q=85", desc: "Creamy tomato gravy, tender chicken and aromatic spices." },
+  { id: 1, name: "Butter Chicken", category: "Mains", price: 1, image: "https://images.unsplash.com/photo-1603894584373-5ac82b2ae398?auto=format&fit=crop&w=900&q=85", desc: "Creamy tomato gravy, tender chicken and aromatic spices." },
   { id: 2, name: "Paneer Tikka", category: "Starters", price: 9, image: "https://images.unsplash.com/photo-1567188040759-fb8a883dc6d8?auto=format&fit=crop&w=900&q=85", desc: "Char-grilled cottage cheese with peppers and smoky masala." },
   { id: 3, name: "Biryani", category: "Mains", price: 9, image: "https://images.unsplash.com/photo-1563379091339-03246963d96c?auto=format&fit=crop&w=900&q=85", desc: "Fragrant basmati rice layered with saffron and whole spices." },
   { id: 4, name: "Garlic Naan", category: "Breads", price: 79, image: "https://images.unsplash.com/photo-1601050690597-df0568f70950?auto=format&fit=crop&w=900&q=85", desc: "Soft tandoor-baked naan finished with garlic and butter." },
