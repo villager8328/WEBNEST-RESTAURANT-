@@ -119,7 +119,7 @@ function Checkout() {
 
 function Success() { return <section className="section"><div className="container empty"><div className="success-icon">✓</div><p className="eyebrow">ORDER CONFIRMED</p><h1>Thank you!</h1><p>Your WEBNEST RESTAURANT order has been received. We’ll prepare it fresh.</p><Link className="btn primary" to="/menu">Order again</Link></div></section>; }
 
-function Footer() { return <footer><div className="container footer-grid"><div><Link className="brand" to="/"><span className="brand-mark">W</span><span>WEBNEST <b>RESTAURANT</b></span></Link><p>Bold Indian flavours, warm hospitality.</p></div><div><b>Quick links</b><Link to="/">Home</Link><Link to="/menu">Menu</Link><Link to="/cart">Cart</Link></div><div><b>Contact</b><span>14 Residency Road, Bengaluru</span><span>+91 98765 43210</span></div></div><div className="copyright">© 2026 WEBNEST RESTAURANT. All rights reserved.</div></footer>; }
+function Footer() { return <footer><div className="container footer-grid"><div><Link className="brand" to="/"><span className="brand-mark">W</span><span>WEBNEST <b>RESTAURANT</b></span></Link><p>Bold Indian flavours, warm hospitality.</p></div><div><b>Quick links</b><Link to="/">Home</Link><Link to="/menu">Menu</Link><Link to="/cart">Cart</Link></div><div><b>Contact</b><span>14 Residency Road, antartica</span><span>+01234567890</span></div></div><div className="copyright">© 2026 WEBNEST RESTAURANT. All rights reserved.</div></footer>; }
 
 function App() { return <><Header/><main><Routes><Route path="/" element={<Home/>}/><Route path="/menu" element={<Menu/>}/><Route path="/cart" element={<Cart/>}/><Route path="/checkout" element={<Checkout/>}/><Route path="/success" element={<Success/>}/></Routes></main><Footer/></>; }
 
